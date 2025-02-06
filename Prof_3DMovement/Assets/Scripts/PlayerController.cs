@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         Vector3 step = h * transform.right + v * transform.forward;
-        transform.position += step * speed * Time.deltaTime;
+        //transform.position += step * speed * Time.deltaTime;
 
         float mx = Input.GetAxis("Mouse X");
         Vector3 rotStep = mx * Vector3.up;
